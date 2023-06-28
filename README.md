@@ -8,7 +8,7 @@ If you like the project, please do not forget to star ★ this repository and fo
 
 ## Preview
 
-![preview of checkbox](/Graphics/RadioButtonDemo.png | height=400)
+<img src="/Graphics/RadioButtonDemo.png" height="400">
 
 ## Requirements
 
