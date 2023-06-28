@@ -53,7 +53,7 @@ public struct RadioButtonGroup: View{
     public var body: some View{
         VStack(alignment: .leading){
             ForEach(collectionOfItems, id:\.self){ item in
-                RadioButton(isSelected: .constant(self.selectedOption==item), title: item, selectChoice: {(i) in
+                RadioButton(isSelected: .constant(self.selectedOption==item), title: item, buttonColor: self.buttonColor, titleColor: self.titleColor, selectChoice: {(i) in
                     self.selectedOption = i
                 })
             }
